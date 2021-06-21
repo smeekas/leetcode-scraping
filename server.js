@@ -17,13 +17,26 @@ app.get("/", (req, res, next) => {
 //TODO ADD COMPANIES TO DATA(JSON) MANUALLY😥
 
 app.post("/get_que", (req, res, next) => {
-  const company = req.body.company || "google";
+  const company = req.body.company ;
   console.log(company);
-  const listOfQuestion = fs.readFileSync("copy2.json", "utf-8");
+  if(company[0]==='ALL'){
+
+  }
+  const listOfQuestion = fs.readFileSync("main.json", "utf-8");
   const data = JSON.parse(listOfQuestion);
+  if(!company){
+    return res.json(data);
+  }
+  if(company[0]==='ALL'){
+    return res.json(data);
+  }
   const response = data.filter((a) => {
-    if (a[1].company) {
-      return a[1].company.includes(company);
+    // if (a[1].company) {
+    //   return a[1].company.includes(company);
+    // }
+    // return false;
+    if(a[1].company){
+      return check_for_all(a[1].company,company)
     }
     return false;
   });
@@ -34,3 +47,8 @@ app.post("/get_que", (req, res, next) => {
 app.listen(7000, () => {
   console.log("connected...");
 });
+function check_for_all(main, tobe) {
+  return tobe.every( function (v) {
+      return main.includes(v);
+  });
+};
