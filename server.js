@@ -40,7 +40,8 @@ app.post("/get_que", (req, res, next) => {
       return b[1].company.length-a[1].company.length;
     })
     response=response.map(a=>{
-      a[1].name=a[1].name+`(${a[1].company.length})`
+      // a[1].name=a[1].name+`(${a[1].company})`
+      a[1].name=[a[1].name,a[1].company];
       return a;
     })
     return res.json(response);
@@ -62,6 +63,17 @@ app.post("/get_que", (req, res, next) => {
   res.json(response);
   // JSON.stringify
 });
+
+// app.post('/keyword',(req,res,next)=>{
+//   const keyword=req.body.keyword;
+//   const listOfQuestion = fs.readFileSync("main.json", "utf-8");
+//   const data = JSON.parse(listOfQuestion);
+//   const response=data.filter((a)=>{
+//     return a[1].name.toLowerCase().includes(keyword.toLowerCase());
+//   });
+//   return res.json(response);
+// })
+
 app.listen(7000, () => {
   console.log("connected...");
 });

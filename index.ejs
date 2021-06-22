@@ -63,6 +63,7 @@
   background-color: #1b61ec;
   border-radius: 5px;
   letter-spacing: 2px;
+  cursor: pointer;
   font-size: 2rem;
 }
       .table-fill {
@@ -181,12 +182,44 @@
   color: #000;
   border-radius: 5px;
 }
-
+#search_div{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  
+}
+#search_div #search{
+  flex: 5;
+  padding: 1rem;
+  margin: 0.5rem;
+  font-size: 2rem;
+  outline: none;
+  border: 5px solid #1b61ec;
+  border-radius: 5px;
+}
+#search_div #search::placeholder{
+  font-size: 2rem;
+  /* color: yellow; */
+}
+#search_div #clear_btn{
+  flex: 1;
+  padding: 1rem;
+  margin: 0.5rem;
+  width: 100%;
+  cursor: pointer;
+  color: #fff;
+  background-color: #1b61ec;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  font-size: 2rem;
+}
     </style>
   </head>
   <body>
-    <!-- <input type="text" id="company_name" />
-    <button id="get-que" type="button">GET</button> -->
+    <div id="search_div">
+      <input type="text" id="search" placeholder="search"/>
+    <button id="clear_btn" type="button">clear</button> 
+  </div>
     <div class="flex">
       <table class="table-fill">
         <thead>

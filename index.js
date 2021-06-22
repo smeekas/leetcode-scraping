@@ -38,6 +38,11 @@ function showData(data) {
     tr.innerHTML = tds;
     tbody.append(tr);
   }
+  document.getElementById("total").innerHTML = ``;
+  const total = document.getElementById("total");
+  const h2 = document.createElement("h2");
+  h2.innerText = `total: ${data.length}`;
+  total.append(h2);
   for (let i = 0; i < data.length; i++) {
     const tr = document.createElement("tr");
     const cls = data[i][1].diff;
@@ -45,7 +50,7 @@ function showData(data) {
     const tds = `
             <td>${data[i][0]}</td>
             <td>${data[i][1].accep}</td>
-            <td><a href="${data[i][1].link}" target="_blank">${data[i][1].name}</a></td>
+            <td style="max-width:500px; word-wrap:break-word" ><a href="${data[i][1].link}" target="_blank">${data[i][1].name[1]?data[i][1].name[0]:data[i][1].name}</a><span style="color:#1C5D3B;background-color:#fff">${data[i][1].name[1]?data[i][1].name[1]:null}<span/></td>
             <td  >
             <p class="difflabel ${cls}">${data[i][1].diff}</p>
             
@@ -127,22 +132,20 @@ diffth.addEventListener("click", () => {
 
 document.getElementById("all").addEventListener("click", () => {
   if (document.getElementById("all").checked) {
-  
-  let c0=document.getElementById('companies').children;
-    for(let i=1;i<c0.length;i++){
-    c0[i].children[0].checked=false;
+    let c0 = document.getElementById("companies").children;
+    for (let i = 1; i < c0.length; i++) {
+      c0[i].children[0].checked = false;
     }
   }
 });
 
 document.getElementById("most-asked").addEventListener("click", () => {
   if (document.getElementById("most-asked").checked) {
-  
-  let c0=document.getElementById('companies').children;
-    for(let i=2;i<c0.length;i++){
-    c0[i].children[0].checked=false;
+    let c0 = document.getElementById("companies").children;
+    for (let i = 2; i < c0.length; i++) {
+      c0[i].children[0].checked = false;
     }
-    c0[0].children[0].checked=false;
+    c0[0].children[0].checked = false;
   }
 });
 
@@ -150,10 +153,10 @@ const submit_btn = document.getElementById("submit-btn");
 submit_btn.addEventListener("click", () => {
   const arr = [];
 
-  let c0=document.getElementById('companies').children;
-    for(let i=0;i<c0.length;i++){
-      arr.push(c0[i].children[0]);
-    }
+  let c0 = document.getElementById("companies").children;
+  for (let i = 0; i < c0.length; i++) {
+    arr.push(c0[i].children[0]);
+  }
   // console.log(arr);
   // let c0 = document.getElementById("all");
   // arr.push(c0);
@@ -178,9 +181,9 @@ submit_btn.addEventListener("click", () => {
   data = data.filter((a) => a !== null);
   // console.log(data);
   // return;
-if(data.length===0){
-  return;
-}
+  if (data.length === 0) {
+    return;
+  }
   fetch("/get_que", {
     method: "POST",
     headers: {
@@ -195,15 +198,32 @@ if(data.length===0){
       console.log(data);
       QUE_FROM_SERVER = data;
       showData(data);
-      document.getElementById("total").innerHTML = ``;
-      const total = document.getElementById("total");
-      const h2 = document.createElement("h2");
-      h2.innerText = `total: ${data.length}`;
-      total.append(h2);
     })
     .catch((err) => {
       console.log(err);
       console.log("fetch filter");
     });
 });
+let extraSaved;
+const search = document.getElementById("search");
+search.addEventListener("keyup", (e) => {
+  
+  const word = search.value.toLowerCase();
+  console.log(word);
+  
+  let dump=QUE_FROM_SERVER.filter(a=>{
+    if(a[1].name[1]){
+      return a[1].name[0].toLowerCase().includes(word);
+    }else{
+      return a[1].name.toLowerCase().includes(word);
+    }
+  })
+  showData(dump);
+});
 
+const clear_btn=document.getElementById('clear_btn');
+clear_btn.addEventListener('click',()=>{
+  search.value=``;
+  // QUE_FROM_SERVER=extraSaved;
+  search.dispatchEvent(new KeyboardEvent('keyup',{'key':'Backspace'}));
+})
