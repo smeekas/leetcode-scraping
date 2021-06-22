@@ -336,7 +336,8 @@
       "name": "Jewels and Stones",
       "accep": 87.2,
       "diff": "Easy",
-      "diff_rate": 1
+      "diff_rate": 1,
+      "company": ["BAIDU"]
     }
   ],
   [
@@ -2377,7 +2378,8 @@
       "name": "Subdomain Visit Count",
       "accep": 72.1,
       "diff": "Easy",
-      "diff_rate": 1
+      "diff_rate": 1,
+      "company": ["INDEED"]
     }
   ],
   [
@@ -3774,7 +3776,7 @@
       "name": "Reverse Linked List",
       "accep": 66.5,
       "diff": "Easy",
-      "company": ["GOLDMAN", "NVIDIA", "MATHWORKS"],
+      "company": ["GOLDMAN", "NVIDIA", "MATHWORKS", "BAIDU"],
       "diff_rate": 1
     }
   ],
@@ -3816,7 +3818,7 @@
       "accep": 66.4,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["NVIDIA"]
+      "company": ["NVIDIA", "SNAPCHAT", "YELP"]
     }
   ],
   [
@@ -3907,7 +3909,8 @@
       "name": "Intersection of Two Arrays",
       "accep": 66,
       "diff": "Easy",
-      "diff_rate": 1
+      "diff_rate": 1,
+      "company": ["INDEED", "YELP"]
     }
   ],
   [
@@ -4921,7 +4924,8 @@
       "name": "Top K Frequent Elements",
       "accep": 62.9,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["YELP"]
     }
   ],
   [
@@ -5273,7 +5277,8 @@
       "name": "Product of Array Except Self",
       "accep": 61.6,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["INDEED", "YELP"]
     }
   ],
   [
@@ -5724,7 +5729,7 @@
       "accep": 60.5,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["QUORA"]
+      "company": ["QUORA", "TENCENT"]
     }
   ],
   [
@@ -5784,7 +5789,7 @@
       "name": "Group Anagrams",
       "accep": 60.4,
       "diff": "Medium",
-      "company": ["GOLDMAN"],
+      "company": ["GOLDMAN", "YELP"],
       "diff_rate": 2
     }
   ],
@@ -6015,7 +6020,7 @@
       "name": "Kth Largest Element in an Array",
       "accep": 59.7,
       "diff": "Medium",
-      "company": ["GOLDMAN"],
+      "company": ["GOLDMAN", "TENCENT", "BAIDU"],
       "diff_rate": 2
     }
   ],
@@ -6076,7 +6081,8 @@
       "name": "Game of Life",
       "accep": 59.6,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["SNAPCHAT"]
     }
   ],
   [
@@ -6468,7 +6474,8 @@
       "name": "Spiral Matrix II",
       "accep": 58.8,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["SNAPCHAT"]
     }
   ],
   [
@@ -7302,7 +7309,8 @@
       "name": "Merge Two Sorted Lists",
       "accep": 56.9,
       "diff": "Easy",
-      "diff_rate": 1
+      "diff_rate": 1,
+      "company": ["TENCENT", "INDEED"]
     }
   ],
   [
@@ -7373,7 +7381,8 @@
       "name": "Word Abbreviation",
       "accep": 56.8,
       "diff": "Hard",
-      "diff_rate": 3
+      "diff_rate": 3,
+      "company": ["SNAPCHAT"]
     }
   ],
   [
@@ -7483,7 +7492,7 @@
       "name": "Pascal's Triangle",
       "accep": 56.5,
       "diff": "Easy",
-      "company": ["GOLDMAN"],
+      "company": ["GOLDMAN", "YELP"],
       "diff_rate": 1
     }
   ],
@@ -7665,7 +7674,8 @@
       "name": "Flood Fill",
       "accep": 56.1,
       "diff": "Easy",
-      "diff_rate": 1
+      "diff_rate": 1,
+      "company": ["SNAPCHAT"]
     }
   ],
   [
@@ -8697,7 +8707,8 @@
       "name": "Binary Tree Tilt",
       "accep": 53.9,
       "diff": "Easy",
-      "diff_rate": 1
+      "diff_rate": 1,
+      "company": ["INDEED"]
     }
   ],
   [
@@ -8977,7 +8988,8 @@
       "name": "Top K Frequent Words",
       "accep": 53.5,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["YELP"]
     }
   ],
   [
@@ -9249,7 +9261,8 @@
       "name": "Lowest Common Ancestor of a Binary Search Tree",
       "accep": 52.8,
       "diff": "Easy",
-      "diff_rate": 1
+      "diff_rate": 1,
+      "company": ["TENCENT"]
     }
   ],
   [
@@ -9480,7 +9493,8 @@
       "name": "Minimum Index Sum of Two Lists",
       "accep": 52.3,
       "diff": "Easy",
-      "diff_rate": 1
+      "diff_rate": 1,
+      "company": ["YELP"]
     }
   ],
   [
@@ -9520,7 +9534,7 @@
       "name": "Trapping Rain Water",
       "accep": 52.2,
       "diff": "Hard",
-      "company": ["GOLDMAN", "NVIDIA"],
+      "company": ["GOLDMAN", "NVIDIA", "SNAPCHAT"],
       "diff_rate": 3
     }
   ],
@@ -9562,7 +9576,7 @@
       "name": "Best Time to Buy and Sell Stock",
       "accep": 52.1,
       "diff": "Easy",
-      "company": ["GOLDMAN"],
+      "company": ["GOLDMAN", "TENCENT"],
       "diff_rate": 1
     }
   ],
@@ -9783,7 +9797,8 @@
       "name": "Largest Sum of Averages",
       "accep": 51.5,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["BAIDU"]
     }
   ],
   [
@@ -9984,7 +9999,8 @@
       "name": "Delete and Earn",
       "accep": 51.1,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["INDEED"]
     }
   ],
   [
@@ -10105,7 +10121,7 @@
       "accep": 50.9,
       "diff": "Hard",
       "diff_rate": 3,
-      "company": ["QUORA"]
+      "company": ["QUORA", "INDEED"]
     }
   ],
   [
@@ -10125,7 +10141,8 @@
       "name": "Maximum Length of Repeated Subarray",
       "accep": 50.9,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["INDEED"]
     }
   ],
   [
@@ -10245,7 +10262,8 @@
       "name": "Sort Colors",
       "accep": 50.6,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["TENCENT"]
     }
   ],
   [
@@ -10307,7 +10325,7 @@
       "name": "Palindrome Number",
       "accep": 50.5,
       "diff": "Easy",
-      "company": ["GOLDMAN"],
+      "company": ["GOLDMAN", "TENCENT"],
       "diff_rate": 1
     }
   ],
@@ -10458,7 +10476,7 @@
       "name": "Number of Islands",
       "accep": 50.3,
       "diff": "Medium",
-      "company": ["GOLDMAN", "NVIDIA", "MATHWORKS"],
+      "company": ["GOLDMAN", "NVIDIA", "MATHWORKS", "SNAPCHAT", "YELP"],
       "diff_rate": 2
     }
   ],
@@ -10469,7 +10487,8 @@
       "name": "Lowest Common Ancestor of a Binary Tree",
       "accep": 50.3,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["TENCENT", "SNAPCHAT"]
     }
   ],
   [
@@ -10489,7 +10508,8 @@
       "name": "Diameter of Binary Tree",
       "accep": 50.3,
       "diff": "Easy",
-      "diff_rate": 1
+      "diff_rate": 1,
+      "company": ["BAIDU"]
     }
   ],
   [
@@ -10570,7 +10590,7 @@
       "accep": 50.2,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["QUORA"]
+      "company": ["QUORA", "TENCENT"]
     }
   ],
   [
@@ -10901,7 +10921,7 @@
       "accep": 49.5,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["QUORA"]
+      "company": ["QUORA", "INDEED", "YELP"]
     }
   ],
   [
@@ -11012,7 +11032,7 @@
       "accep": 49.1,
       "diff": "Easy",
       "diff_rate": 1,
-      "company": ["NVIDIA"]
+      "company": ["NVIDIA", "SNAPCHAT"]
     }
   ],
   [
@@ -11454,7 +11474,7 @@
       "name": "Find Median from Data Stream",
       "accep": 48.2,
       "diff": "Hard",
-      "company": ["GOLDMAN"],
+      "company": ["GOLDMAN", "SNAPCHAT"],
       "diff_rate": 3
     }
   ],
@@ -11505,7 +11525,7 @@
       "name": "Maximum Subarray",
       "accep": 48.1,
       "diff": "Easy",
-      "company": ["GOLDMAN", "NVIDIA", "SAP"],
+      "company": ["GOLDMAN", "NVIDIA", "SAP", "BAIDU"],
       "diff_rate": 1
     }
   ],
@@ -11616,7 +11636,8 @@
       "name": "Edit Distance",
       "accep": 47.8,
       "diff": "Hard",
-      "diff_rate": 3
+      "diff_rate": 3,
+      "company": ["BAIDU"]
     }
   ],
   [
@@ -11688,7 +11709,7 @@
       "accep": 47.6,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["QUORA"]
+      "company": ["QUORA", "SNAPCHAT", "YELP"]
     }
   ],
   [
@@ -11788,7 +11809,8 @@
       "name": "Sort List",
       "accep": 47.4,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["BAIDU"]
     }
   ],
   [
@@ -11949,7 +11971,16 @@
       "name": "Two Sum",
       "accep": 47.1,
       "diff": "Easy",
-      "company": ["GOLDMAN", "NVIDIA", "SAP"],
+      "company": [
+        "GOLDMAN",
+        "NVIDIA",
+        "SAP",
+        "TENCENT",
+        "INDEED",
+        "SNAPCHAT",
+        "BAIDU",
+        "YELP"
+      ],
       "diff_rate": 1
     }
   ],
@@ -11970,7 +12001,8 @@
       "name": "Find Pivot Index",
       "accep": 47.1,
       "diff": "Easy",
-      "diff_rate": 1
+      "diff_rate": 1,
+      "company": ["INDEED", "BAIDU"]
     }
   ],
   [
@@ -12080,7 +12112,8 @@
       "name": "Design Search Autocomplete System",
       "accep": 46.9,
       "diff": "Hard",
-      "diff_rate": 3
+      "diff_rate": 3,
+      "company": ["INDEED"]
     }
   ],
   [
@@ -12110,7 +12143,8 @@
       "name": "Remove Duplicates from Sorted Array II",
       "accep": 46.8,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["BAIDU"]
     }
   ],
   [
@@ -12644,7 +12678,7 @@
       "name": "Search a 2D Matrix II",
       "accep": 45.8,
       "diff": "Medium",
-      "company": ["GOLDMAN", "SAP"],
+      "company": ["GOLDMAN", "SAP", "TENCENT", "BAIDU"],
       "diff_rate": 2
     }
   ],
@@ -12837,7 +12871,7 @@
       "accep": 45.5,
       "diff": "Easy",
       "diff_rate": 1,
-      "company": ["SAP"]
+      "company": ["SAP", "TENCENT"]
     }
   ],
   [
@@ -13047,7 +13081,8 @@
       "name": "Sliding Window Maximum",
       "accep": 45.1,
       "diff": "Hard",
-      "diff_rate": 3
+      "diff_rate": 3,
+      "company": ["INDEED", "YELP"]
     }
   ],
   [
@@ -13117,7 +13152,8 @@
       "name": "Random Pick with Weight",
       "accep": 45,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["YELP"]
     }
   ],
   [
@@ -13368,7 +13404,7 @@
       "name": "Course Schedule",
       "accep": 44.5,
       "diff": "Medium",
-      "company": ["GOLDMAN"],
+      "company": ["GOLDMAN", "YELP"],
       "diff_rate": 2
     }
   ],
@@ -13691,7 +13727,7 @@
       "accep": 43.7,
       "diff": "Hard",
       "diff_rate": 3,
-      "company": ["MATHWORKS"]
+      "company": ["MATHWORKS", "TENCENT", "INDEED"]
     }
   ],
   [
@@ -13711,7 +13747,8 @@
       "name": "Subarray Sum Equals K",
       "accep": 43.7,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["INDEED", "SNAPCHAT"]
     }
   ],
   [
@@ -13832,7 +13869,7 @@
       "name": "Linked List Cycle",
       "accep": 43.5,
       "diff": "Easy",
-      "company": ["GOLDMAN"],
+      "company": ["GOLDMAN", "BAIDU"],
       "diff_rate": 1
     }
   ],
@@ -14014,7 +14051,8 @@
       "name": "Summary Ranges",
       "accep": 43.2,
       "diff": "Easy",
-      "diff_rate": 1
+      "diff_rate": 1,
+      "company": ["INDEED"]
     }
   ],
   [
@@ -14387,7 +14425,8 @@
       "name": "Word Break",
       "accep": 42.4,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["SNAPCHAT", "YELP"]
     }
   ],
   [
@@ -14557,7 +14596,7 @@
       "name": "Merge Intervals",
       "accep": 42,
       "diff": "Medium",
-      "company": ["GOLDMAN", "NVIDIA"],
+      "company": ["GOLDMAN", "NVIDIA", "SNAPCHAT", "YELP"],
       "diff_rate": 2
     }
   ],
@@ -14788,7 +14827,8 @@
       "name": "Verify Preorder Serialization of a Binary Tree",
       "accep": 41.3,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["SNAPCHAT"]
     }
   ],
   [
@@ -14838,7 +14878,8 @@
       "name": "Merge Sorted Array",
       "accep": 41.1,
       "diff": "Easy",
-      "diff_rate": 1
+      "diff_rate": 1,
+      "company": ["INDEED", "BAIDU"]
     }
   ],
   [
@@ -14940,7 +14981,8 @@
       "name": "Isomorphic Strings",
       "accep": 40.9,
       "diff": "Easy",
-      "diff_rate": 1
+      "diff_rate": 1,
+      "company": ["YELP"]
     }
   ],
   [
@@ -15223,7 +15265,8 @@
       "name": "Maximal Rectangle",
       "accep": 40.1,
       "diff": "Hard",
-      "diff_rate": 3
+      "diff_rate": 3,
+      "company": ["INDEED"]
     }
   ],
   [
@@ -15493,7 +15536,8 @@
       "name": "Number of Islands II",
       "accep": 39.4,
       "diff": "Hard",
-      "diff_rate": 3
+      "diff_rate": 3,
+      "company": ["SNAPCHAT"]
     }
   ],
   [
@@ -15503,7 +15547,8 @@
       "name": "Consecutive Numbers Sum",
       "accep": 39.4,
       "diff": "Hard",
-      "diff_rate": 3
+      "diff_rate": 3,
+      "company": ["INDEED"]
     }
   ],
   [
@@ -15603,7 +15648,8 @@
       "name": "Basic Calculator II",
       "accep": 39.1,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["BAIDU", "YELP"]
     }
   ],
   [
@@ -15753,7 +15799,8 @@
       "name": "ZigZag Conversion",
       "accep": 38.8,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["TENCENT"]
     }
   ],
   [
@@ -15883,7 +15930,8 @@
       "name": "Reconstruct Itinerary",
       "accep": 38.6,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["YELP"]
     }
   ],
   [
@@ -15933,7 +15981,8 @@
       "name": "Basic Calculator",
       "accep": 38.5,
       "diff": "Hard",
-      "diff_rate": 3
+      "diff_rate": 3,
+      "company": ["INDEED"]
     }
   ],
   [
@@ -16224,7 +16273,8 @@
       "name": "Word Search",
       "accep": 37.7,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["SNAPCHAT"]
     }
   ],
   [
@@ -16324,7 +16374,8 @@
       "name": "Spiral Matrix",
       "accep": 37.2,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["SNAPCHAT"]
     }
   ],
   [
@@ -16354,7 +16405,8 @@
       "name": "LFU Cache",
       "accep": 37.1,
       "diff": "Hard",
-      "diff_rate": 3
+      "diff_rate": 3,
+      "company": ["SNAPCHAT"]
     }
   ],
   [
@@ -16394,7 +16446,7 @@
       "name": "LRU Cache",
       "accep": 37,
       "diff": "Medium",
-      "company": ["GOLDMAN", "NVIDIA", "SAP"],
+      "company": ["GOLDMAN", "NVIDIA", "SAP", "INDEED", "SNAPCHAT", "BAIDU"],
       "diff_rate": 2
     }
   ],
@@ -16527,7 +16579,7 @@
       "accep": 36.7,
       "diff": "Easy",
       "diff_rate": 1,
-      "company": ["QUORA"]
+      "company": ["QUORA", "YELP"]
     }
   ],
   [
@@ -16618,7 +16670,8 @@
       "name": "Word Break II",
       "accep": 36.5,
       "diff": "Hard",
-      "diff_rate": 3
+      "diff_rate": 3,
+      "company": ["SNAPCHAT"]
     }
   ],
   [
@@ -16678,7 +16731,7 @@
       "name": "Search in Rotated Sorted Array",
       "accep": 36.4,
       "diff": "Medium",
-      "company": ["GOLDMAN", "NVIDIA"],
+      "company": ["GOLDMAN", "NVIDIA", "TENCENT", "BAIDU"],
       "diff_rate": 2
     }
   ],
@@ -16759,7 +16812,14 @@
       "name": "Add Two Numbers",
       "accep": 36.2,
       "diff": "Medium",
-      "company": ["GOLDMAN", "NVIDIA", "QUORA", "MATHWORKS"],
+      "company": [
+        "GOLDMAN",
+        "NVIDIA",
+        "QUORA",
+        "MATHWORKS",
+        "TENCENT",
+        "BAIDU"
+      ],
       "diff_rate": 2
     }
   ],
@@ -16861,7 +16921,8 @@
       "name": "Binary Tree Maximum Path Sum",
       "accep": 36,
       "diff": "Hard",
-      "diff_rate": 3
+      "diff_rate": 3,
+      "company": ["BAIDU"]
     }
   ],
   [
@@ -17103,7 +17164,7 @@
       "accep": 35.4,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["MATHWORKS"]
+      "company": ["MATHWORKS", "TENCENT"]
     }
   ],
   [
@@ -17283,7 +17344,8 @@
       "name": "Minimum Number of Refueling Stops",
       "accep": 34.8,
       "diff": "Hard",
-      "diff_rate": 3
+      "diff_rate": 3,
+      "company": ["BAIDU"]
     }
   ],
   [
@@ -17947,7 +18009,8 @@
       "name": "Word Ladder",
       "accep": 32.7,
       "diff": "Hard",
-      "diff_rate": 3
+      "diff_rate": 3,
+      "company": ["SNAPCHAT"]
     }
   ],
   [
@@ -18067,7 +18130,7 @@
       "name": "Median of Two Sorted Arrays",
       "accep": 31.9,
       "diff": "Hard",
-      "company": ["GOLDMAN"],
+      "company": ["GOLDMAN", "TENCENT", "SNAPCHAT", "BAIDU"],
       "diff_rate": 3
     }
   ],
@@ -18098,7 +18161,7 @@
       "name": "Longest Substring Without Repeating Characters",
       "accep": 31.8,
       "diff": "Medium",
-      "company": ["GOLDMAN"],
+      "company": ["GOLDMAN", "TENCENT", "BAIDU", "YELP"],
       "diff_rate": 2
     }
   ],
@@ -18209,7 +18272,7 @@
       "name": "Pow(x, n)",
       "accep": 31.3,
       "diff": "Medium",
-      "company": ["GOLDMAN"],
+      "company": ["GOLDMAN", "TENCENT"],
       "diff_rate": 2
     }
   ],
@@ -18280,7 +18343,8 @@
       "name": "Text Justification",
       "accep": 31.1,
       "diff": "Hard",
-      "diff_rate": 3
+      "diff_rate": 3,
+      "company": ["SNAPCHAT"]
     }
   ],
   [
@@ -18330,7 +18394,8 @@
       "name": "Longest Palindromic Substring",
       "accep": 30.9,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["TENCENT", "BAIDU", "YELP"]
     }
   ],
   [
@@ -18611,7 +18676,7 @@
       "name": "3Sum",
       "accep": 28.7,
       "diff": "Medium",
-      "company": ["GOLDMAN", "QUORA"],
+      "company": ["GOLDMAN", "QUORA", "INDEED", "BAIDU"],
       "diff_rate": 2
     }
   ],
@@ -18633,7 +18698,7 @@
       "accep": 28.6,
       "diff": "Hard",
       "diff_rate": 3,
-      "company": ["SAP"]
+      "company": ["SAP", "SNAPCHAT", "YELP"]
     }
   ],
   [
@@ -18753,7 +18818,8 @@
       "name": "Decode Ways",
       "accep": 27.4,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["BAIDU"]
     }
   ],
   [
@@ -18985,7 +19051,8 @@
       "name": "Word Ladder II",
       "accep": 24.2,
       "diff": "Hard",
-      "diff_rate": 3
+      "diff_rate": 3,
+      "company": ["YELP"]
     }
   ],
   [
@@ -19046,7 +19113,8 @@
       "name": "Find the Closest Palindrome",
       "accep": 20.4,
       "diff": "Hard",
-      "diff_rate": 3
+      "diff_rate": 3,
+      "company": ["YELP"]
     }
   ],
   [
@@ -19086,7 +19154,7 @@
       "name": "String to Integer (atoi)",
       "accep": 15.8,
       "diff": "Medium",
-      "company": ["GOLDMAN"],
+      "company": ["GOLDMAN", "TENCENT"],
       "diff_rate": 2
     }
   ],

@@ -127,10 +127,22 @@ diffth.addEventListener("click", () => {
 
 document.getElementById("all").addEventListener("click", () => {
   if (document.getElementById("all").checked) {
-    document.getElementById("nvidia").checked = false;
-    document.getElementById("goldman").checked = false;
+  
+  let c0=document.getElementById('companies').children;
+    for(let i=1;i<c0.length;i++){
+    c0[i].children[0].checked=false;
+    }
+  }
+});
 
-    return;
+document.getElementById("most-asked").addEventListener("click", () => {
+  if (document.getElementById("most-asked").checked) {
+  
+  let c0=document.getElementById('companies').children;
+    for(let i=2;i<c0.length;i++){
+    c0[i].children[0].checked=false;
+    }
+    c0[0].children[0].checked=false;
   }
 });
 
@@ -138,18 +150,23 @@ const submit_btn = document.getElementById("submit-btn");
 submit_btn.addEventListener("click", () => {
   const arr = [];
 
-  let c0 = document.getElementById("all");
-  arr.push(c0);
-  c0 = document.getElementById("nvidia");
-  arr.push(c0);
-  c0 = document.getElementById("goldman");
-  arr.push(c0);
-  c0 = document.getElementById("sap");
-  arr.push(c0);
-  c0 = document.getElementById("quora");
-  arr.push(c0);
-  c0 = document.getElementById("mathworks");
-  arr.push(c0);
+  let c0=document.getElementById('companies').children;
+    for(let i=0;i<c0.length;i++){
+      arr.push(c0[i].children[0]);
+    }
+  // console.log(arr);
+  // let c0 = document.getElementById("all");
+  // arr.push(c0);
+  // c0 = document.getElementById("nvidia");
+  // arr.push(c0);
+  // c0 = document.getElementById("goldman");
+  // arr.push(c0);
+  // c0 = document.getElementById("sap");
+  // arr.push(c0);
+  // c0 = document.getElementById("quora");
+  // arr.push(c0);
+  // c0 = document.getElementById("mathworks");
+  // arr.push(c0);
 
   let data = arr.map((a) => {
     if (a.checked) {
@@ -157,9 +174,10 @@ submit_btn.addEventListener("click", () => {
     }
     return null;
   });
-  console.log(data)
+  // console.log(data)
   data = data.filter((a) => a !== null);
   // console.log(data);
+  // return;
 if(data.length===0){
   return;
 }
@@ -188,3 +206,4 @@ if(data.length===0){
       console.log("fetch filter");
     });
 });
+
