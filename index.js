@@ -46,17 +46,39 @@ function showData(data) {
   for (let i = 0; i < data.length; i++) {
     const tr = document.createElement("tr");
     const cls = data[i][1].diff;
-    // console.log(cls)
-    const tds = `
+let tds;
+if(data[i][1].name.length===2){
+  //?most asked
+
+  tds = `
             <td>${data[i][0]}</td>
-            <td>${data[i][1].accep}</td>
-            <td style="max-width:500px; word-wrap:break-word" ><a href="${data[i][1].link}" target="_blank">${data[i][1].name[1]?data[i][1].name[0]:data[i][1].name}</a><span style="color:#1C5D3B;background-color:#fff">${data[i][1].name[1]?data[i][1].name[1]:null}<span/></td>
+            <td  >${data[i][1].accep}</td>
+            <td style="max-width:600px; word-wrap: break-word; " >
+            <a href="${data[i][1].link}" target="_blank">${data[i][1].name[0]}</a>
+            <h3 class="h3_hover">${data[i][1].name[1]}<h3/>
+       
+            </td>
+            
             <td  >
             <p class="difflabel ${cls}">${data[i][1].diff}</p>
             
             </td>
         `;
+}else{
+  tds = `
+  <td>${data[i][0]}</td>
+  <td  >${data[i][1].accep}</td>
+  <td  ><a href="${data[i][1].link}" target="_blank">${data[i][1].name}</a></td>
+  <td  >
+  <p class="difflabel ${cls}">${data[i][1].diff}</p>
+  
+  </td>
+`;
+}
+    // console.log(cls)
+     
     tr.innerHTML = tds;
+    console.log(tr)
     tbody.append(tr);
   }
 }
