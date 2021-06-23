@@ -12,10 +12,12 @@
       <li> acceptance rate</li>
       <li> difficulty</li>
     </ul>
-  
   </li>
 
 </ul>
 
-
+<img src="images/empty.png"   alt="empty.png" />
+<img src="images/company-wise.png" " alt="company-wise.png" />
+<img src="images/most-asked.png"  alt="most-asked.png" />
+<img src="images/search.png"  alt="search.png" />
 
