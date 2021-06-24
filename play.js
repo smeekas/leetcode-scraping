@@ -11,3 +11,7 @@ function asd(main, tobe) {
     });
 };
 console.log(asd(main,sub));
+
+// const main="Binary tree";
+
+// console.log(main.includes("Tree".toLowerCase()))

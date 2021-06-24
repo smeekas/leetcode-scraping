@@ -1,27 +1,30 @@
 let QUE_FROM_SERVER;
 
-// const btn = document.getElementById("get-que");
-// btn.addEventListener("click", () => {
-//   const company = document.getElementById("company_name").value;
-//   fetch("/get_que", {
-//     method: "POST",
-//     headers: {
-//       "Content-Type": "application/json",
-//     },
-//     body: JSON.stringify({
-//       company: company,
-//     }),
-//   })
-//     .then((res) => res.json())
-//     .then((data) => {
-//       console.log(data);
-//       QUE_FROM_SERVER = data;
-//       showData(data);
-//     })
-//     .catch((err) => {
-//       console.log("fetch");
-//     });
-// });
+(() => {
+  const companies = document.getElementById("companies");
+  // <div>
+  //             <input type="checkbox" name="all" id="all" value="ALL" />
+  //             <label for="all">all</label>
+  //           </div>
+const tags=['all','most-asked','goldman','nvidia','sap','quora','mathworks','tencent','indeed','snapchat','baidu','yelp','pinterest','zillow','paypal','ebay','lyft','expedia','airbnb','cisco'];
+for(let i=0;i<tags.length;i++){
+
+  const div = document.createElement("div");
+  const input = document.createElement("input");
+  const label = document.createElement("label");
+  input.type="checkbox";
+  input.name=tags[i];
+  input.name=tags[i];
+  input.id=tags[i];
+  input.value=tags[i].toUpperCase();
+  label.setAttribute("for",tags[i]);
+  label.innerText=tags[i];
+  div.append(input);
+  div.append(label);
+  companies.append(div);
+}
+  
+})();
 
 function showData(data) {
   const tbody = document.getElementById("tbody");
@@ -46,11 +49,11 @@ function showData(data) {
   for (let i = 0; i < data.length; i++) {
     const tr = document.createElement("tr");
     const cls = data[i][1].diff;
-let tds;
-if(data[i][1].name.length===2){
-  //?most asked
+    let tds;
+    if (data[i][1].name.length === 2) {
+      //?most asked
 
-  tds = `
+      tds = `
             <td>${data[i][0]}</td>
             <td  >${data[i][1].accep}</td>
             <td style="max-width:600px; word-wrap: break-word; " >
@@ -64,8 +67,8 @@ if(data[i][1].name.length===2){
             
             </td>
         `;
-}else{
-  tds = `
+    } else {
+      tds = `
   <td>${data[i][0]}</td>
   <td  >${data[i][1].accep}</td>
   <td  ><a href="${data[i][1].link}" target="_blank">${data[i][1].name}</a></td>
@@ -74,11 +77,11 @@ if(data[i][1].name.length===2){
   
   </td>
 `;
-}
+    }
     // console.log(cls)
-     
+
     tr.innerHTML = tds;
-    console.log(tr)
+    // console.log(tr);
     tbody.append(tr);
   }
 }
@@ -229,23 +232,26 @@ submit_btn.addEventListener("click", () => {
 let extraSaved;
 const search = document.getElementById("search");
 search.addEventListener("keyup", (e) => {
-  
   const word = search.value.toLowerCase();
   console.log(word);
-  
-  let dump=QUE_FROM_SERVER.filter(a=>{
-    if(a[1].name[1]){
+
+  let dump = QUE_FROM_SERVER.filter((a) => {
+    if (a[1].name.length===2) {
+      // console.log(a[1].name[1]);
       return a[1].name[0].toLowerCase().includes(word);
-    }else{
+      
+    } else {
+      // console.log(a[1].name);
       return a[1].name.toLowerCase().includes(word);
     }
-  })
+  });
+  console.log(dump)
   showData(dump);
 });
 
-const clear_btn=document.getElementById('clear_btn');
-clear_btn.addEventListener('click',()=>{
-  search.value=``;
+const clear_btn = document.getElementById("clear_btn");
+clear_btn.addEventListener("click", () => {
+  search.value = ``;
   // QUE_FROM_SERVER=extraSaved;
-  search.dispatchEvent(new KeyboardEvent('keyup',{'key':'Backspace'}));
-})
+  search.dispatchEvent(new KeyboardEvent("keyup", { key: "Backspace" }));
+});
