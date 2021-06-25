@@ -337,7 +337,7 @@
       "accep": 87.2,
       "diff": "Easy",
       "diff_rate": 1,
-      "company": ["BAIDU"]
+      "company": ["BAIDU", "ALIBABA"]
     }
   ],
   [
@@ -1177,7 +1177,8 @@
       "name": "All Paths From Source to Target",
       "accep": 78.8,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["WALMART"]
     }
   ],
   [
@@ -1978,7 +1979,8 @@
       "name": "Moving Average from Data Stream",
       "accep": 74.2,
       "diff": "Easy",
-      "diff_rate": 1
+      "diff_rate": 1,
+      "company": ["TWITTER"]
     }
   ],
   [
@@ -2469,7 +2471,8 @@
       "name": "Binary Tree Pruning",
       "accep": 71.6,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["TWITTER"]
     }
   ],
   [
@@ -3166,7 +3169,7 @@
       "accep": 68.4,
       "diff": "Easy",
       "diff_rate": 1,
-      "company": ["PAYPAL"]
+      "company": ["PAYPAL", "ORACLE"]
     }
   ],
   [
@@ -3307,7 +3310,7 @@
       "accep": 67.9,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["SAP", "PAYPAL", "CISCO"]
+      "company": ["SAP", "PAYPAL", "CISCO", "VMWARE", "WALMART", "ORACLE"]
     }
   ],
   [
@@ -3568,7 +3571,7 @@
       "accep": 67.1,
       "diff": "Easy",
       "diff_rate": 1,
-      "company": ["EBAY"]
+      "company": ["EBAY", "ALIBABA", "ORACLE"]
     }
   ],
   [
@@ -3709,7 +3712,8 @@
       "name": "Max Area of Island",
       "accep": 66.7,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["ALIBABA"]
     }
   ],
   [
@@ -3769,7 +3773,7 @@
       "name": "Subsets",
       "accep": 66.5,
       "diff": "Medium",
-      "company": ["GOLDMAN", "LYFT"],
+      "company": ["GOLDMAN", "LYFT", "WALMART", "ORACLE"],
       "diff_rate": 2
     }
   ],
@@ -3787,7 +3791,10 @@
         "BAIDU",
         "EBAY",
         "EXPEDIA",
-        "CISCO"
+        "CISCO",
+        "VMWARE",
+        "ALIBABA",
+        "ORACLE"
       ],
       "diff_rate": 1
     }
@@ -3830,7 +3837,15 @@
       "accep": 66.4,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["NVIDIA", "SNAPCHAT", "YELP", "LYFT"]
+      "company": [
+        "NVIDIA",
+        "SNAPCHAT",
+        "YELP",
+        "LYFT",
+        "SALESFORCE",
+        "ALIBABA",
+        "WALMART"
+      ]
     }
   ],
   [
@@ -3922,7 +3937,7 @@
       "accep": 66,
       "diff": "Easy",
       "diff_rate": 1,
-      "company": ["INDEED", "YELP", "LYFT"]
+      "company": ["INDEED", "YELP", "LYFT", "ORACLE"]
     }
   ],
   [
@@ -4589,7 +4604,7 @@
       "name": "Design HashMap",
       "accep": 64,
       "diff": "Easy",
-      "company": ["GOLDMAN"],
+      "company": ["GOLDMAN", "TWITTER", "SALESFORCE"],
       "diff_rate": 1
     }
   ],
@@ -4900,7 +4915,8 @@
       "name": "Find Duplicate File in System",
       "accep": 63,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["TWITTER"]
     }
   ],
   [
@@ -4942,7 +4958,7 @@
       "accep": 62.9,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["YELP"]
+      "company": ["YELP", "SALESFORCE"]
     }
   ],
   [
@@ -5123,7 +5139,8 @@
       "name": "Convert Binary Search Tree to Sorted Doubly Linked List",
       "accep": 62.1,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["ORACLE"]
     }
   ],
   [
@@ -5234,7 +5251,8 @@
       "name": "Convert Sorted Array to Binary Search Tree",
       "accep": 61.8,
       "diff": "Easy",
-      "diff_rate": 1
+      "diff_rate": 1,
+      "company": ["WALMART"]
     }
   ],
   [
@@ -5295,7 +5313,15 @@
       "accep": 61.6,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["INDEED", "YELP", "EBAY", "LYFT", "EXPEDIA"]
+      "company": [
+        "INDEED",
+        "YELP",
+        "EBAY",
+        "LYFT",
+        "EXPEDIA",
+        "VMWARE",
+        "WALMART"
+      ]
     }
   ],
   [
@@ -5377,7 +5403,7 @@
       "accep": 61.4,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["CISCO"]
+      "company": ["CISCO", "ORACLE"]
     }
   ],
   [
@@ -5707,7 +5733,8 @@
       "name": "Majority Element",
       "accep": 60.6,
       "diff": "Easy",
-      "diff_rate": 1
+      "diff_rate": 1,
+      "company": ["TWITTER"]
     }
   ],
   [
@@ -5717,7 +5744,8 @@
       "name": "Design Log Storage System",
       "accep": 60.6,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["TWITTER"]
     }
   ],
   [
@@ -5808,7 +5836,7 @@
       "name": "Group Anagrams",
       "accep": 60.4,
       "diff": "Medium",
-      "company": ["GOLDMAN", "YELP", "EBAY"],
+      "company": ["GOLDMAN", "YELP", "EBAY", "ALIBABA", "WALMART"],
       "diff_rate": 2
     }
   ],
@@ -6039,7 +6067,14 @@
       "name": "Kth Largest Element in an Array",
       "accep": 59.7,
       "diff": "Medium",
-      "company": ["GOLDMAN", "TENCENT", "BAIDU", "EXPEDIA"],
+      "company": [
+        "GOLDMAN",
+        "TENCENT",
+        "BAIDU",
+        "EXPEDIA",
+        "VMWARE",
+        "ALIBABA"
+      ],
       "diff_rate": 2
     }
   ],
@@ -6211,7 +6246,7 @@
       "name": "Best Time to Buy and Sell Stock II",
       "accep": 59.3,
       "diff": "Easy",
-      "company": ["GOLDMAN"],
+      "company": ["GOLDMAN", "ALIBABA"],
       "diff_rate": 1
     }
   ],
@@ -6444,7 +6479,7 @@
       "accep": 58.9,
       "diff": "Easy",
       "diff_rate": 1,
-      "company": ["SAP", "PAYPAL", "EBAY", "LYFT"]
+      "company": ["SAP", "PAYPAL", "EBAY", "LYFT", "WALMART"]
     }
   ],
   [
@@ -6707,7 +6742,8 @@
       "name": "Best Meeting Point",
       "accep": 58.4,
       "diff": "Hard",
-      "diff_rate": 3
+      "diff_rate": 3,
+      "company": ["TWITTER"]
     }
   ],
   [
@@ -6778,7 +6814,8 @@
       "name": "Find the Duplicate Number",
       "accep": 58.2,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["SALESFORCE", "ORACLE"]
     }
   ],
   [
@@ -6909,7 +6946,7 @@
       "accep": 57.8,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["EBAY", "CISCO"]
+      "company": ["EBAY", "CISCO", "SALESFORCE", "ALIBABA", "WALMART", "ORACLE"]
     }
   ],
   [
@@ -7050,7 +7087,7 @@
       "accep": 57.5,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["SAP", "EXPEDIA"]
+      "company": ["SAP", "EXPEDIA", "SALESFORCE"]
     }
   ],
   [
@@ -7120,7 +7157,7 @@
       "name": "Roman to Integer",
       "accep": 57.3,
       "diff": "Easy",
-      "company": ["GOLDMAN"],
+      "company": ["GOLDMAN", "ORACLE"],
       "diff_rate": 1
     }
   ],
@@ -7334,7 +7371,16 @@
       "accep": 56.9,
       "diff": "Easy",
       "diff_rate": 1,
-      "company": ["TENCENT", "INDEED", "PAYPAL", "AIRBNB", "CISCO"]
+      "company": [
+        "TENCENT",
+        "INDEED",
+        "PAYPAL",
+        "AIRBNB",
+        "CISCO",
+        "ALIBABA",
+        "WALMART",
+        "ORACLE"
+      ]
     }
   ],
   [
@@ -7344,7 +7390,7 @@
       "name": "Unique Paths",
       "accep": 56.9,
       "diff": "Medium",
-      "company": ["GOLDMAN"],
+      "company": ["GOLDMAN", "VMWARE", "ALIBABA"],
       "diff_rate": 2
     }
   ],
@@ -7516,7 +7562,7 @@
       "name": "Pascal's Triangle",
       "accep": 56.5,
       "diff": "Easy",
-      "company": ["GOLDMAN", "YELP"],
+      "company": ["GOLDMAN", "YELP", "ORACLE"],
       "diff_rate": 1
     }
   ],
@@ -7568,7 +7614,7 @@
       "accep": 56.4,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["AIRBNB"]
+      "company": ["AIRBNB", "TWITTER"]
     }
   ],
   [
@@ -8326,7 +8372,7 @@
       "accep": 54.7,
       "diff": "Easy",
       "diff_rate": 1,
-      "company": ["MATHWORKS"]
+      "company": ["MATHWORKS", "VMWARE", "WALMART"]
     }
   ],
   [
@@ -8539,7 +8585,7 @@
       "accep": 54.4,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["CISCO"]
+      "company": ["CISCO", "SALESFORCE"]
     }
   ],
   [
@@ -8631,7 +8677,7 @@
       "accep": 54.2,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["LYFT"]
+      "company": ["LYFT", "WALMART"]
     }
   ],
   [
@@ -9013,7 +9059,8 @@
       "name": "Decode String",
       "accep": 53.5,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["ORACLE"]
     }
   ],
   [
@@ -9024,7 +9071,7 @@
       "accep": 53.5,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["YELP"]
+      "company": ["YELP", "VMWARE"]
     }
   ],
   [
@@ -9054,7 +9101,8 @@
       "name": "Implement Trie (Prefix Tree)",
       "accep": 53.4,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["TWITTER", "WALMART"]
     }
   ],
   [
@@ -9065,7 +9113,7 @@
       "accep": 53.4,
       "diff": "Easy",
       "diff_rate": 1,
-      "company": ["EBAY"]
+      "company": ["EBAY", "SALESFORCE"]
     }
   ],
   [
@@ -9216,7 +9264,7 @@
       "name": "Container With Most Water",
       "accep": 53,
       "diff": "Medium",
-      "company": ["GOLDMAN", "LYFT", "AIRBNB"],
+      "company": ["GOLDMAN", "LYFT", "AIRBNB", "ALIBABA"],
       "diff_rate": 2
     }
   ],
@@ -9439,7 +9487,8 @@
       "name": "Intersection of Two Arrays II",
       "accep": 52.5,
       "diff": "Easy",
-      "diff_rate": 1
+      "diff_rate": 1,
+      "company": ["ORACLE"]
     }
   ],
   [
@@ -9570,7 +9619,18 @@
       "name": "Trapping Rain Water",
       "accep": 52.2,
       "diff": "Hard",
-      "company": ["GOLDMAN", "NVIDIA", "SNAPCHAT", "EBAY", "LYFT", "AIRBNB"],
+      "company": [
+        "GOLDMAN",
+        "NVIDIA",
+        "SNAPCHAT",
+        "EBAY",
+        "LYFT",
+        "AIRBNB",
+        "TWITTER",
+        "SALESFORCE",
+        "WALMART",
+        "ORACLE"
+      ],
       "diff_rate": 3
     }
   ],
@@ -9581,7 +9641,7 @@
       "name": "N-Queens",
       "accep": 52.2,
       "diff": "Hard",
-      "company": ["GOLDMAN"],
+      "company": ["GOLDMAN", "ALIBABA"],
       "diff_rate": 3
     }
   ],
@@ -9612,7 +9672,17 @@
       "name": "Best Time to Buy and Sell Stock",
       "accep": 52.1,
       "diff": "Easy",
-      "company": ["GOLDMAN", "TENCENT", "EBAY", "LYFT", "EXPEDIA"],
+      "company": [
+        "GOLDMAN",
+        "TENCENT",
+        "EBAY",
+        "LYFT",
+        "EXPEDIA",
+        "SALESFORCE",
+        "VMWARE",
+        "WALMART",
+        "ORACLE"
+      ],
       "diff_rate": 1
     }
   ],
@@ -9764,7 +9834,7 @@
       "accep": 51.6,
       "diff": "Easy",
       "diff_rate": 1,
-      "company": ["PINTEREST"]
+      "company": ["PINTEREST", "VMWARE"]
     }
   ],
   [
@@ -9878,7 +9948,7 @@
       "accep": 51.4,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["PAYPAL"]
+      "company": ["PAYPAL", "WALMART"]
     }
   ],
   [
@@ -10063,7 +10133,7 @@
       "accep": 51,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["EBAY"]
+      "company": ["EBAY", "ORACLE"]
     }
   ],
   [
@@ -10073,7 +10143,8 @@
       "name": "Construct Binary Tree from Inorder and Postorder Traversal",
       "accep": 51,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["TWITTER"]
     }
   ],
   [
@@ -10164,7 +10235,7 @@
       "accep": 50.9,
       "diff": "Hard",
       "diff_rate": 3,
-      "company": ["QUORA", "INDEED"]
+      "company": ["QUORA", "INDEED", "ORACLE"]
     }
   ],
   [
@@ -10245,7 +10316,8 @@
       "name": "Word Squares",
       "accep": 50.7,
       "diff": "Hard",
-      "diff_rate": 3
+      "diff_rate": 3,
+      "company": ["ORACLE"]
     }
   ],
   [
@@ -10306,7 +10378,7 @@
       "accep": 50.6,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["TENCENT"]
+      "company": ["TENCENT", "WALMART"]
     }
   ],
   [
@@ -10317,7 +10389,7 @@
       "accep": 50.6,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["CISCO"]
+      "company": ["CISCO", "VMWARE"]
     }
   ],
   [
@@ -10349,7 +10421,8 @@
       "name": "Reorganize String",
       "accep": 50.6,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["TWITTER"]
     }
   ],
   [
@@ -10369,7 +10442,7 @@
       "name": "Palindrome Number",
       "accep": 50.5,
       "diff": "Easy",
-      "company": ["GOLDMAN", "TENCENT"],
+      "company": ["GOLDMAN", "TENCENT", "ALIBABA"],
       "diff_rate": 1
     }
   ],
@@ -10381,7 +10454,7 @@
       "accep": 50.5,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["PINTEREST", "LYFT", "AIRBNB"]
+      "company": ["PINTEREST", "LYFT", "AIRBNB", "WALMART", "ORACLE"]
     }
   ],
   [
@@ -10391,7 +10464,8 @@
       "name": "Permutations II",
       "accep": 50.5,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["VMWARE"]
     }
   ],
   [
@@ -10532,7 +10606,12 @@
         "EBAY",
         "LYFT",
         "EXPEDIA",
-        "CISCO"
+        "CISCO",
+        "TWITTER",
+        "VMWARE",
+        "ALIBABA",
+        "WALMART",
+        "ORACLE"
       ],
       "diff_rate": 2
     }
@@ -10545,7 +10624,15 @@
       "accep": 50.3,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["TENCENT", "SNAPCHAT", "PINTEREST", "ZILLOW", "AIRBNB"]
+      "company": [
+        "TENCENT",
+        "SNAPCHAT",
+        "PINTEREST",
+        "ZILLOW",
+        "AIRBNB",
+        "SALESFORCE",
+        "WALMART"
+      ]
     }
   ],
   [
@@ -10980,7 +11067,15 @@
       "accep": 49.5,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["QUORA", "INDEED", "YELP"]
+      "company": [
+        "QUORA",
+        "INDEED",
+        "YELP",
+        "TWITTER",
+        "VMWARE",
+        "WALMART",
+        "ORACLE"
+      ]
     }
   ],
   [
@@ -11121,7 +11216,7 @@
       "name": "Climbing Stairs",
       "accep": 49,
       "diff": "Easy",
-      "company": ["GOLDMAN", "NVIDIA"],
+      "company": ["GOLDMAN", "NVIDIA", "ALIBABA", "WALMART"],
       "diff_rate": 1
     }
   ],
@@ -11132,7 +11227,8 @@
       "name": "Symmetric Tree",
       "accep": 49,
       "diff": "Easy",
-      "diff_rate": 1
+      "diff_rate": 1,
+      "company": ["ORACLE"]
     }
   ],
   [
@@ -11493,7 +11589,8 @@
       "name": "Length of Longest Fibonacci Subsequence",
       "accep": 48.3,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["WALMART"]
     }
   ],
   [
@@ -11533,7 +11630,14 @@
       "name": "Find Median from Data Stream",
       "accep": 48.2,
       "diff": "Hard",
-      "company": ["GOLDMAN", "SNAPCHAT", "EXPEDIA"],
+      "company": [
+        "GOLDMAN",
+        "SNAPCHAT",
+        "EXPEDIA",
+        "TWITTER",
+        "VMWARE",
+        "ORACLE"
+      ],
       "diff_rate": 3
     }
   ],
@@ -11574,7 +11678,8 @@
       "name": "Sudoku Solver",
       "accep": 48.1,
       "diff": "Hard",
-      "diff_rate": 3
+      "diff_rate": 3,
+      "company": ["VMWARE"]
     }
   ],
   [
@@ -11593,7 +11698,9 @@
         "PAYPAL",
         "EBAY",
         "EXPEDIA",
-        "CISCO"
+        "CISCO",
+        "ALIBABA",
+        "ORACLE"
       ],
       "diff_rate": 1
     }
@@ -11757,7 +11864,8 @@
       "name": "Binary Tree Vertical Order Traversal",
       "accep": 47.7,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["ORACLE"]
     }
   ],
   [
@@ -11778,7 +11886,7 @@
       "accep": 47.6,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["QUORA", "SNAPCHAT", "YELP", "CISCO"]
+      "company": ["QUORA", "SNAPCHAT", "YELP", "CISCO", "WALMART", "ORACLE"]
     }
   ],
   [
@@ -11848,7 +11956,8 @@
       "name": "24 Game",
       "accep": 47.5,
       "diff": "Hard",
-      "diff_rate": 3
+      "diff_rate": 3,
+      "company": ["TWITTER"]
     }
   ],
   [
@@ -11879,7 +11988,7 @@
       "accep": 47.4,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["BAIDU"]
+      "company": ["BAIDU", "VMWARE"]
     }
   ],
   [
@@ -11909,7 +12018,8 @@
       "name": "Longest Consecutive Sequence",
       "accep": 47.3,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["ALIBABA", "ORACLE"]
     }
   ],
   [
@@ -11919,7 +12029,7 @@
       "name": "Min Stack",
       "accep": 47.3,
       "diff": "Easy",
-      "company": ["GOLDMAN", "LYFT"],
+      "company": ["GOLDMAN", "LYFT", "WALMART"],
       "diff_rate": 1
     }
   ],
@@ -11961,7 +12071,7 @@
       "accep": 47.2,
       "diff": "Easy",
       "diff_rate": 1,
-      "company": ["CISCO"]
+      "company": ["CISCO", "VMWARE", "WALMART"]
     }
   ],
   [
@@ -12057,7 +12167,13 @@
         "LYFT",
         "EXPEDIA",
         "AIRBNB",
-        "CISCO"
+        "CISCO",
+        "TWITTER",
+        "SALESFORCE",
+        "VMWARE",
+        "ALIBABA",
+        "WALMART",
+        "ORACLE"
       ],
       "diff_rate": 1
     }
@@ -12130,7 +12246,8 @@
       "name": "Remove Duplicates from Sorted List",
       "accep": 47,
       "diff": "Easy",
-      "diff_rate": 1
+      "diff_rate": 1,
+      "company": ["SALESFORCE"]
     }
   ],
   [
@@ -12313,7 +12430,7 @@
       "name": "Find Minimum in Rotated Sorted Array",
       "accep": 46.7,
       "diff": "Medium",
-      "company": ["GOLDMAN"],
+      "company": ["GOLDMAN", "SALESFORCE", "VMWARE"],
       "diff_rate": 2
     }
   ],
@@ -12335,7 +12452,7 @@
       "accep": 46.7,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["LYFT", "AIRBNB"]
+      "company": ["LYFT", "AIRBNB", "SALESFORCE"]
     }
   ],
   [
@@ -12397,7 +12514,7 @@
       "accep": 46.6,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["MATHWORKS"]
+      "company": ["MATHWORKS", "WALMART"]
     }
   ],
   [
@@ -12528,7 +12645,7 @@
       "accep": 46.2,
       "diff": "Hard",
       "diff_rate": 3,
-      "company": ["MATHWORKS", "PAYPAL", "EBAY"]
+      "company": ["MATHWORKS", "PAYPAL", "EBAY", "VMWARE"]
     }
   ],
   [
@@ -12608,7 +12725,8 @@
       "name": "Delete Node in a BST",
       "accep": 46,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["ORACLE"]
     }
   ],
   [
@@ -12758,7 +12876,7 @@
       "name": "Search a 2D Matrix II",
       "accep": 45.8,
       "diff": "Medium",
-      "company": ["GOLDMAN", "SAP", "TENCENT", "BAIDU", "EBAY"],
+      "company": ["GOLDMAN", "SAP", "TENCENT", "BAIDU", "EBAY", "WALMART"],
       "diff_rate": 2
     }
   ],
@@ -12911,7 +13029,8 @@
       "name": "Find All Anagrams in a String",
       "accep": 45.6,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["ORACLE"]
     }
   ],
   [
@@ -12952,7 +13071,7 @@
       "accep": 45.5,
       "diff": "Easy",
       "diff_rate": 1,
-      "company": ["SAP", "TENCENT", "EXPEDIA"]
+      "company": ["SAP", "TENCENT", "EXPEDIA", "ALIBABA", "ORACLE"]
     }
   ],
   [
@@ -13103,7 +13222,7 @@
       "accep": 45.2,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["AIRBNB"]
+      "company": ["AIRBNB", "SALESFORCE", "VMWARE"]
     }
   ],
   [
@@ -13165,7 +13284,7 @@
       "accep": 45.1,
       "diff": "Hard",
       "diff_rate": 3,
-      "company": ["INDEED", "YELP", "PINTEREST", "LYFT"]
+      "company": ["INDEED", "YELP", "PINTEREST", "LYFT", "ALIBABA"]
     }
   ],
   [
@@ -13227,7 +13346,7 @@
       "accep": 45,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["EXPEDIA"]
+      "company": ["EXPEDIA", "SALESFORCE", "ORACLE"]
     }
   ],
   [
@@ -13248,7 +13367,8 @@
       "name": "Partition to K Equal Sum Subsets",
       "accep": 45,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["VMWARE"]
     }
   ],
   [
@@ -13490,7 +13610,7 @@
       "name": "Course Schedule",
       "accep": 44.5,
       "diff": "Medium",
-      "company": ["GOLDMAN", "YELP", "PAYPAL", "EBAY"],
+      "company": ["GOLDMAN", "YELP", "PAYPAL", "EBAY", "SALESFORCE"],
       "diff_rate": 2
     }
   ],
@@ -13724,7 +13844,8 @@
       "name": "Minimum Genetic Mutation",
       "accep": 43.9,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["TWITTER"]
     }
   ],
   [
@@ -13816,7 +13937,17 @@
       "accep": 43.7,
       "diff": "Hard",
       "diff_rate": 3,
-      "company": ["MATHWORKS", "TENCENT", "INDEED", "LYFT"]
+      "company": [
+        "MATHWORKS",
+        "TENCENT",
+        "INDEED",
+        "LYFT",
+        "SALESFORCE",
+        "VMWARE",
+        "ALIBABA",
+        "WALMART",
+        "ORACLE"
+      ]
     }
   ],
   [
@@ -13888,7 +14019,7 @@
       "accep": 43.6,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["QUORA", "EXPEDIA"]
+      "company": ["QUORA", "EXPEDIA", "WALMART"]
     }
   ],
   [
@@ -13899,7 +14030,7 @@
       "accep": 43.6,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["PINTEREST"]
+      "company": ["PINTEREST", "SALESFORCE"]
     }
   ],
   [
@@ -13960,7 +14091,7 @@
       "name": "Linked List Cycle",
       "accep": 43.5,
       "diff": "Easy",
-      "company": ["GOLDMAN", "BAIDU"],
+      "company": ["GOLDMAN", "BAIDU", "ALIBABA", "ORACLE"],
       "diff_rate": 1
     }
   ],
@@ -14032,7 +14163,8 @@
       "name": "Shortest Distance from All Buildings",
       "accep": 43.4,
       "diff": "Hard",
-      "diff_rate": 3
+      "diff_rate": 3,
+      "company": ["TWITTER"]
     }
   ],
   [
@@ -14185,7 +14317,7 @@
       "accep": 43.1,
       "diff": "Easy",
       "diff_rate": 1,
-      "company": ["ZILLOW"]
+      "company": ["ZILLOW", "ALIBABA"]
     }
   ],
   [
@@ -14265,7 +14397,8 @@
       "name": "Palindrome Linked List",
       "accep": 42.9,
       "diff": "Easy",
-      "diff_rate": 1
+      "diff_rate": 1,
+      "company": ["TWITTER", "VMWARE"]
     }
   ],
   [
@@ -14447,7 +14580,14 @@
       "name": "Copy List with Random Pointer",
       "accep": 42.5,
       "diff": "Medium",
-      "company": ["GOLDMAN", "MATHWORKS", "EBAY", "EXPEDIA", "CISCO"],
+      "company": [
+        "GOLDMAN",
+        "MATHWORKS",
+        "EBAY",
+        "EXPEDIA",
+        "CISCO",
+        "ALIBABA"
+      ],
       "diff_rate": 2
     }
   ],
@@ -14519,7 +14659,15 @@
       "accep": 42.4,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["SNAPCHAT", "YELP", "PAYPAL"]
+      "company": [
+        "SNAPCHAT",
+        "YELP",
+        "PAYPAL",
+        "SALESFORCE",
+        "VMWARE",
+        "WALMART",
+        "ORACLE"
+      ]
     }
   ],
   [
@@ -14690,7 +14838,18 @@
       "name": "Merge Intervals",
       "accep": 42,
       "diff": "Medium",
-      "company": ["GOLDMAN", "NVIDIA", "SNAPCHAT", "YELP", "PAYPAL", "CISCO"],
+      "company": [
+        "GOLDMAN",
+        "NVIDIA",
+        "SNAPCHAT",
+        "YELP",
+        "PAYPAL",
+        "CISCO",
+        "TWITTER",
+        "SALESFORCE",
+        "WALMART",
+        "ORACLE"
+      ],
       "diff_rate": 2
     }
   ],
@@ -14752,7 +14911,8 @@
       "name": "Frog Jump",
       "accep": 41.9,
       "diff": "Hard",
-      "diff_rate": 3
+      "diff_rate": 3,
+      "company": ["ORACLE"]
     }
   ],
   [
@@ -14934,7 +15094,7 @@
       "accep": 41.2,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["CISCO"]
+      "company": ["CISCO", "VMWARE", "ALIBABA"]
     }
   ],
   [
@@ -14976,7 +15136,7 @@
       "accep": 41.1,
       "diff": "Easy",
       "diff_rate": 1,
-      "company": ["INDEED", "BAIDU", "EXPEDIA", "CISCO"]
+      "company": ["INDEED", "BAIDU", "EXPEDIA", "CISCO", "WALMART"]
     }
   ],
   [
@@ -15068,7 +15228,7 @@
       "accep": 40.9,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["MATHWORKS"]
+      "company": ["MATHWORKS", "TWITTER", "ORACLE"]
     }
   ],
   [
@@ -15332,7 +15492,10 @@
         "LYFT",
         "EXPEDIA",
         "AIRBNB",
-        "CISCO"
+        "CISCO",
+        "TWITTER",
+        "VMWARE",
+        "WALMART"
       ],
       "diff_rate": 1
     }
@@ -15344,7 +15507,8 @@
       "name": "Maximal Square",
       "accep": 40.2,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["ALIBABA"]
     }
   ],
   [
@@ -15375,7 +15539,7 @@
       "accep": 40.1,
       "diff": "Hard",
       "diff_rate": 3,
-      "company": ["INDEED"]
+      "company": ["INDEED", "VMWARE"]
     }
   ],
   [
@@ -15425,7 +15589,8 @@
       "name": "Remove Duplicates from Sorted List II",
       "accep": 40,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["SALESFORCE"]
     }
   ],
   [
@@ -15606,7 +15771,8 @@
       "name": "Sliding Window Median",
       "accep": 39.5,
       "diff": "Hard",
-      "diff_rate": 3
+      "diff_rate": 3,
+      "company": ["ORACLE"]
     }
   ],
   [
@@ -15759,7 +15925,7 @@
       "accep": 39.1,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["BAIDU", "YELP"]
+      "company": ["BAIDU", "YELP", "ORACLE"]
     }
   ],
   [
@@ -15920,7 +16086,8 @@
       "name": "Search a 2D Matrix",
       "accep": 38.8,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["TWITTER"]
     }
   ],
   [
@@ -15930,7 +16097,8 @@
       "name": "Largest BST Subtree",
       "accep": 38.8,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["SALESFORCE"]
     }
   ],
   [
@@ -16082,7 +16250,8 @@
       "name": "Restore IP Addresses",
       "accep": 38.5,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["VMWARE"]
     }
   ],
   [
@@ -16213,7 +16382,8 @@
       "name": "Find First and Last Position of Element in Sorted Array",
       "accep": 38.1,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["ALIBABA", "WALMART"]
     }
   ],
   [
@@ -16234,7 +16404,7 @@
       "name": "Coin Change",
       "accep": 38.1,
       "diff": "Medium",
-      "company": ["GOLDMAN", "EBAY", "AIRBNB"],
+      "company": ["GOLDMAN", "EBAY", "AIRBNB", "VMWARE", "WALMART"],
       "diff_rate": 2
     }
   ],
@@ -16315,7 +16485,8 @@
       "name": "Largest Rectangle in Histogram",
       "accep": 37.9,
       "diff": "Hard",
-      "diff_rate": 3
+      "diff_rate": 3,
+      "company": ["WALMART"]
     }
   ],
   [
@@ -16325,7 +16496,8 @@
       "name": "House Robber II",
       "accep": 37.9,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["SALESFORCE"]
     }
   ],
   [
@@ -16356,7 +16528,7 @@
       "accep": 37.8,
       "diff": "Hard",
       "diff_rate": 3,
-      "company": ["AIRBNB"]
+      "company": ["AIRBNB", "ORACLE"]
     }
   ],
   [
@@ -16387,7 +16559,7 @@
       "accep": 37.7,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["SNAPCHAT", "ZILLOW"]
+      "company": ["SNAPCHAT", "ZILLOW", "ORACLE"]
     }
   ],
   [
@@ -16457,7 +16629,8 @@
       "name": "Range Sum Query - Mutable",
       "accep": 37.3,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["TWITTER"]
     }
   ],
   [
@@ -16488,7 +16661,7 @@
       "accep": 37.2,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["SNAPCHAT", "ZILLOW", "PAYPAL", "EBAY", "CISCO"]
+      "company": ["SNAPCHAT", "ZILLOW", "PAYPAL", "EBAY", "CISCO", "WALMART"]
     }
   ],
   [
@@ -16519,7 +16692,7 @@
       "accep": 37.1,
       "diff": "Hard",
       "diff_rate": 3,
-      "company": ["SNAPCHAT"]
+      "company": ["SNAPCHAT", "VMWARE"]
     }
   ],
   [
@@ -16572,7 +16745,12 @@
         "EBAY",
         "LYFT",
         "EXPEDIA",
-        "CISCO"
+        "CISCO",
+        "TWITTER",
+        "SALESFORCE",
+        "VMWARE",
+        "ALIBABA",
+        "ORACLE"
       ],
       "diff_rate": 2
     }
@@ -16584,7 +16762,7 @@
       "name": "The Skyline Problem",
       "accep": 37,
       "diff": "Hard",
-      "company": ["GOLDMAN"],
+      "company": ["GOLDMAN", "SALESFORCE"],
       "diff_rate": 3
     }
   ],
@@ -16636,7 +16814,7 @@
       "accep": 36.9,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["CISCO"]
+      "company": ["CISCO", "ORACLE"]
     }
   ],
   [
@@ -16707,7 +16885,7 @@
       "accep": 36.7,
       "diff": "Easy",
       "diff_rate": 1,
-      "company": ["QUORA", "YELP", "PINTEREST"]
+      "company": ["QUORA", "YELP", "PINTEREST", "ALIBABA", "ORACLE"]
     }
   ],
   [
@@ -16749,7 +16927,7 @@
       "accep": 36.6,
       "diff": "Hard",
       "diff_rate": 3,
-      "company": ["AIRBNB"]
+      "company": ["AIRBNB", "TWITTER", "WALMART"]
     }
   ],
   [
@@ -16770,7 +16948,7 @@
       "accep": 36.6,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["ZILLOW"]
+      "company": ["ZILLOW", "SALESFORCE"]
     }
   ],
   [
@@ -16871,7 +17049,10 @@
         "PAYPAL",
         "EBAY",
         "EXPEDIA",
-        "CISCO"
+        "CISCO",
+        "VMWARE",
+        "ALIBABA",
+        "ORACLE"
       ],
       "diff_rate": 2
     }
@@ -16962,7 +17143,10 @@
         "BAIDU",
         "LYFT",
         "AIRBNB",
-        "CISCO"
+        "CISCO",
+        "ALIBABA",
+        "WALMART",
+        "ORACLE"
       ],
       "diff_rate": 2
     }
@@ -17066,7 +17250,7 @@
       "accep": 36,
       "diff": "Hard",
       "diff_rate": 3,
-      "company": ["BAIDU"]
+      "company": ["BAIDU", "TWITTER", "WALMART"]
     }
   ],
   [
@@ -17108,7 +17292,7 @@
       "accep": 35.9,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["PAYPAL"]
+      "company": ["PAYPAL", "SALESFORCE"]
     }
   ],
   [
@@ -17148,7 +17332,8 @@
       "name": "Insert Interval",
       "accep": 35.8,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["TWITTER"]
     }
   ],
   [
@@ -17311,7 +17496,7 @@
       "accep": 35.4,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["MATHWORKS", "TENCENT", "ZILLOW"]
+      "company": ["MATHWORKS", "TENCENT", "ZILLOW", "WALMART"]
     }
   ],
   [
@@ -17583,7 +17768,7 @@
       "accep": 34.4,
       "diff": "Hard",
       "diff_rate": 3,
-      "company": ["EXPEDIA", "AIRBNB"]
+      "company": ["EXPEDIA", "AIRBNB", "VMWARE"]
     }
   ],
   [
@@ -17744,7 +17929,8 @@
       "name": "Arithmetic Slices II - Subsequence",
       "accep": 34,
       "diff": "Hard",
-      "diff_rate": 3
+      "diff_rate": 3,
+      "company": ["ALIBABA"]
     }
   ],
   [
@@ -17785,7 +17971,8 @@
       "name": "Second Highest Salary",
       "accep": 33.9,
       "diff": "Easy",
-      "diff_rate": 1
+      "diff_rate": 1,
+      "company": ["WALMART"]
     }
   ],
   [
@@ -17796,7 +17983,7 @@
       "accep": 33.9,
       "diff": "Hard",
       "diff_rate": 3,
-      "company": ["PINTEREST", "AIRBNB"]
+      "company": ["PINTEREST", "AIRBNB", "TWITTER"]
     }
   ],
   [
@@ -17837,7 +18024,8 @@
       "name": "Encode and Decode Strings",
       "accep": 33.7,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["TWITTER"]
     }
   ],
   [
@@ -18018,7 +18206,7 @@
       "accep": 33.1,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["EXPEDIA"]
+      "company": ["EXPEDIA", "ALIBABA"]
     }
   ],
   [
@@ -18058,7 +18246,7 @@
       "name": "Jump Game II",
       "accep": 33,
       "diff": "Medium",
-      "company": ["GOLDMAN", "EXPEDIA"],
+      "company": ["GOLDMAN", "EXPEDIA", "ORACLE"],
       "diff_rate": 2
     }
   ],
@@ -18161,7 +18349,16 @@
       "accep": 32.7,
       "diff": "Hard",
       "diff_rate": 3,
-      "company": ["SNAPCHAT", "ZILLOW", "LYFT", "EXPEDIA", "AIRBNB"]
+      "company": [
+        "SNAPCHAT",
+        "ZILLOW",
+        "LYFT",
+        "EXPEDIA",
+        "AIRBNB",
+        "SALESFORCE",
+        "WALMART",
+        "ORACLE"
+      ]
     }
   ],
   [
@@ -18241,7 +18438,8 @@
       "name": "Design Twitter",
       "accep": 32.2,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["TWITTER"]
     }
   ],
   [
@@ -18287,7 +18485,11 @@
         "SNAPCHAT",
         "BAIDU",
         "ZILLOW",
-        "AIRBNB"
+        "AIRBNB",
+        "TWITTER",
+        "VMWARE",
+        "ALIBABA",
+        "WALMART"
       ],
       "diff_rate": 3
     }
@@ -18327,7 +18529,10 @@
         "PINTEREST",
         "PAYPAL",
         "EXPEDIA",
-        "CISCO"
+        "CISCO",
+        "ALIBABA",
+        "WALMART",
+        "ORACLE"
       ],
       "diff_rate": 2
     }
@@ -18440,7 +18645,7 @@
       "name": "Pow(x, n)",
       "accep": 31.3,
       "diff": "Medium",
-      "company": ["GOLDMAN", "TENCENT"],
+      "company": ["GOLDMAN", "TENCENT", "ALIBABA", "ORACLE"],
       "diff_rate": 2
     }
   ],
@@ -18491,7 +18696,8 @@
       "name": "Largest Number",
       "accep": 31.2,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["SALESFORCE", "WALMART"]
     }
   ],
   [
@@ -18542,7 +18748,8 @@
       "name": "Shortest Palindrome",
       "accep": 31,
       "diff": "Hard",
-      "diff_rate": 3
+      "diff_rate": 3,
+      "company": ["WALMART"]
     }
   ],
   [
@@ -18564,7 +18771,18 @@
       "accep": 30.9,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["TENCENT", "BAIDU", "YELP", "EBAY", "AIRBNB", "CISCO"]
+      "company": [
+        "TENCENT",
+        "BAIDU",
+        "YELP",
+        "EBAY",
+        "AIRBNB",
+        "CISCO",
+        "TWITTER",
+        "ALIBABA",
+        "WALMART",
+        "ORACLE"
+      ]
     }
   ],
   [
@@ -18664,7 +18882,8 @@
       "name": "Reaching Points",
       "accep": 30.5,
       "diff": "Hard",
-      "diff_rate": 3
+      "diff_rate": 3,
+      "company": ["SALESFORCE"]
     }
   ],
   [
@@ -18775,7 +18994,15 @@
       "name": "Validate Binary Search Tree",
       "accep": 29.2,
       "diff": "Medium",
-      "company": ["GOLDMAN", "NVIDIA", "SAP", "MATHWORKS", "ZILLOW"],
+      "company": [
+        "GOLDMAN",
+        "NVIDIA",
+        "SAP",
+        "MATHWORKS",
+        "ZILLOW",
+        "VMWARE",
+        "WALMART"
+      ],
       "diff_rate": 2
     }
   ],
@@ -18846,7 +19073,16 @@
       "name": "3Sum",
       "accep": 28.7,
       "diff": "Medium",
-      "company": ["GOLDMAN", "QUORA", "INDEED", "BAIDU", "PAYPAL"],
+      "company": [
+        "GOLDMAN",
+        "QUORA",
+        "INDEED",
+        "BAIDU",
+        "PAYPAL",
+        "SALESFORCE",
+        "ALIBABA",
+        "WALMART"
+      ],
       "diff_rate": 2
     }
   ],
@@ -18868,7 +19104,7 @@
       "accep": 28.6,
       "diff": "Hard",
       "diff_rate": 3,
-      "company": ["SAP", "SNAPCHAT", "YELP", "ZILLOW", "PAYPAL"]
+      "company": ["SAP", "SNAPCHAT", "YELP", "ZILLOW", "PAYPAL", "ORACLE"]
     }
   ],
   [
@@ -18968,7 +19204,8 @@
       "name": "Regular Expression Matching",
       "accep": 27.6,
       "diff": "Hard",
-      "diff_rate": 3
+      "diff_rate": 3,
+      "company": ["VMWARE", "ALIBABA"]
     }
   ],
   [
@@ -18989,7 +19226,7 @@
       "accep": 27.4,
       "diff": "Medium",
       "diff_rate": 2,
-      "company": ["BAIDU"]
+      "company": ["BAIDU", "TWITTER", "SALESFORCE"]
     }
   ],
   [
@@ -19080,7 +19317,7 @@
       "accep": 26,
       "diff": "Easy",
       "diff_rate": 1,
-      "company": ["LYFT", "CISCO"]
+      "company": ["LYFT", "CISCO", "ALIBABA"]
     }
   ],
   [
@@ -19120,7 +19357,8 @@
       "name": "Validate IP Address",
       "accep": 25.3,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["VMWARE"]
     }
   ],
   [
@@ -19161,7 +19399,14 @@
       "name": "Reverse Words in a String",
       "accep": 24.8,
       "diff": "Medium",
-      "company": ["GOLDMAN", "NVIDIA", "PAYPAL", "CISCO"],
+      "company": [
+        "GOLDMAN",
+        "NVIDIA",
+        "PAYPAL",
+        "CISCO",
+        "SALESFORCE",
+        "WALMART"
+      ],
       "diff_rate": 2
     }
   ],
@@ -19223,7 +19468,7 @@
       "accep": 24.2,
       "diff": "Hard",
       "diff_rate": 3,
-      "company": ["YELP", "PINTEREST", "LYFT"]
+      "company": ["YELP", "PINTEREST", "LYFT", "ORACLE"]
     }
   ],
   [
@@ -19295,7 +19540,8 @@
       "name": "Max Points on a Line",
       "accep": 18.2,
       "diff": "Hard",
-      "diff_rate": 3
+      "diff_rate": 3,
+      "company": ["ALIBABA"]
     }
   ],
   [
@@ -19305,7 +19551,8 @@
       "name": "Divide Two Integers",
       "accep": 17,
       "diff": "Medium",
-      "diff_rate": 2
+      "diff_rate": 2,
+      "company": ["ORACLE"]
     }
   ],
   [
