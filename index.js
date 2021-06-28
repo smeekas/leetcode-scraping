@@ -6,7 +6,7 @@ let QUE_FROM_SERVER;
   //             <input type="checkbox" name="all" id="all" value="ALL" />
   //             <label for="all">all</label>
   //           </div>
-const tags=['all','most-asked','goldman','nvidia','sap','quora','mathworks','tencent','indeed','snapchat','baidu','yelp','pinterest','zillow','paypal','ebay','lyft','expedia','airbnb','cisco','twitter','salesforce','vmware','alibaba','walmart','oracle','yahoo','linkedin','adobe','apple','bloomberg','uber'];
+const tags=['all','most-asked','goldman','nvidia','sap','quora','mathworks','tencent','indeed','snapchat','baidu','yelp','pinterest','zillow','paypal','ebay','lyft','expedia','airbnb','cisco','twitter','salesforce','vmware','alibaba','walmart','oracle','yahoo','linkedin','adobe','apple','bloomberg','uber','microsoft','facebook','amazon'];
 for(let i=0;i<tags.length;i++){
 
   const div = document.createElement("div");
@@ -56,9 +56,11 @@ function showData(data) {
         return ' '+a;
       });
       tds = `
+      
             <td>${data[i][0]}</td>
             <td  >${data[i][1].accep}</td>
             <td style="max-width:600px; word-wrap: break-word; " >
+ 
             <a href="${data[i][1].link}" target="_blank">${data[i][1].name[0]}</a>
             <h3 class="h3_hover">${data[i][1].name[1]}<h3/>
        
@@ -71,6 +73,7 @@ function showData(data) {
         `;
     } else {
       tds = `
+     
   <td>${data[i][0]}</td>
   <td  >${data[i][1].accep}</td>
   <td  ><a href="${data[i][1].link}" target="_blank">${data[i][1].name}</a></td>
@@ -92,45 +95,50 @@ const idth = document.getElementById("ID");
 idth.addEventListener("click", () => {
   // console.log(a);
   // console.log(idth);
-  const cc = idth.getAttribute("class");
+  const cc = idth.classList;
   // console.log(cc);
-  if (cc == "asc") {
+  if(cc.contains('asc')){
     const asc_data = QUE_FROM_SERVER.sort((a, b) => {
       return +a[0] - +b[0];
     });
     QUE_FROM_SERVER = asc_data;
     showData(asc_data);
-    idth.className = "dsc";
-  } else {
-    const dsc_data = QUE_FROM_SERVER.sort((a, b) => {
+    cc.replace("asc","dsc")
+    idth.classList = cc;
+  }else{
+        const dsc_data = QUE_FROM_SERVER.sort((a, b) => {
       return +b[0] - +a[0];
     });
     QUE_FROM_SERVER = dsc_data;
     showData(dsc_data);
-    idth.className = "asc";
+    cc.replace("dsc","asc")
+    idth.classList = cc;
   }
+
 });
 
 const accepth = document.getElementById("ACCEP");
 accepth.addEventListener("click", () => {
   // console.log(a);
   // console.log(idth);
-  const cc = accepth.getAttribute("class");
+  const cc = accepth.classList;
   // console.log(cc);
-  if (cc == "asc") {
+  if (cc.contains("asc")) {
     const asc_data = QUE_FROM_SERVER.sort((a, b) => {
       return +a[1].accep - +b[1].accep;
     });
     QUE_FROM_SERVER = asc_data;
     showData(asc_data);
-    accepth.className = "dsc";
+    cc.replace("asc","dsc")
+    accepth.className = cc;
   } else {
     const dsc_data = QUE_FROM_SERVER.sort((a, b) => {
       return +b[1].accep - +a[1].accep;
     });
     QUE_FROM_SERVER = dsc_data;
     showData(dsc_data);
-    accepth.className = "asc";
+    cc.replace("dsc","asc")
+    accepth.className = cc;
   }
 });
 
@@ -138,22 +146,24 @@ const diffth = document.getElementById("DIFF");
 diffth.addEventListener("click", () => {
   // console.log(a);
   // console.log(idth);
-  const cc = diffth.getAttribute("class");
+  const cc = diffth.classList;
   // console.log(cc);
-  if (cc == "asc") {
+  if (cc.contains("asc")) {
     const asc_data = QUE_FROM_SERVER.sort((a, b) => {
       return +a[1].diff_rate - +b[1].diff_rate;
     });
     QUE_FROM_SERVER = asc_data;
     showData(asc_data);
-    diffth.className = "dsc";
+    cc.replace("asc","dsc")
+    diffth.className = cc;
   } else {
     const dsc_data = QUE_FROM_SERVER.sort((a, b) => {
       return +b[1].diff_rate - +a[1].diff_rate;
     });
     QUE_FROM_SERVER = dsc_data;
     showData(dsc_data);
-    diffth.className = "asc";
+    cc.replace("dsc","asc")
+    diffth.className = cc;
   }
 });
 
@@ -231,12 +241,12 @@ submit_btn.addEventListener("click", () => {
       console.log("fetch filter");
     });
 });
-let extraSaved;
+let extraSaved=[];
 const search = document.getElementById("search");
 search.addEventListener("keyup", (e) => {
   const word = search.value.toLowerCase();
   console.log(word);
-
+  
   let dump = QUE_FROM_SERVER.filter((a) => {
     if (a[1].name.length===2) {
       // console.log(a[1].name[1]);
@@ -247,6 +257,8 @@ search.addEventListener("keyup", (e) => {
       return a[1].name.toLowerCase().includes(word);
     }
   });
+  // QUE_FROM_SERVER=dump;
+ 
   console.log(dump)
   showData(dump);
 });

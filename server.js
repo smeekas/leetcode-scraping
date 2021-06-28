@@ -12,8 +12,8 @@ app.use(express.json());
 app.get("/", (req, res, next) => {
   res.render("index.ejs");
 });
-//TODO MORE FRONTEND COMPANY SELECTION
-//TODO filter based on length of company list
+
+//TODO add done que ID and display it (can store on DB or LS)
 //TODO ADD COMPANIES TO DATA(JSON) MANUALLY😥
 
 app.post("/get_que", (req, res, next) => {
