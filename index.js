@@ -6,7 +6,7 @@ let QUE_FROM_SERVER;
   //             <input type="checkbox" name="all" id="all" value="ALL" />
   //             <label for="all">all</label>
   //           </div>
-const tags=['all','most-asked','goldman','nvidia','sap','quora','mathworks','tencent','indeed','snapchat','baidu','yelp','pinterest','zillow','paypal','ebay','lyft','expedia','airbnb','cisco','twitter','salesforce','vmware','alibaba','walmart','oracle','yahoo','linkedin','adobe','apple','bloomberg','uber','microsoft','facebook','amazon'];
+const tags=['all','most-asked','goldman','nvidia','sap','quora','mathworks','tencent','indeed','snapchat','baidu','yelp','pinterest','zillow','paypal','ebay','lyft','expedia','airbnb','cisco','twitter','salesforce','vmware','alibaba','walmart','oracle','yahoo','linkedin','adobe','apple','bloomberg','uber','microsoft','facebook','amazon','google'];
 for(let i=0;i<tags.length;i++){
 
   const div = document.createElement("div");
