@@ -1,11 +1,11 @@
 let QUE_FROM_SERVER;
-
+console.log(window.outerWidth);
+if(window.outerWidth<600){
+  alert("best viewed on desktop site.");
+}
 (() => {
   const companies = document.getElementById("companies");
-  // <div>
-  //             <input type="checkbox" name="all" id="all" value="ALL" />
-  //             <label for="all">all</label>
-  //           </div>
+
 const tags=['all','most-asked','goldman','nvidia','sap','quora','mathworks','tencent','indeed','snapchat','baidu','yelp','pinterest','zillow','paypal','ebay','lyft','expedia','airbnb','cisco','twitter','salesforce','vmware','alibaba','walmart','oracle','yahoo','linkedin','adobe','apple','bloomberg','uber','microsoft','facebook','amazon','google'];
 for(let i=0;i<tags.length;i++){
 
@@ -19,6 +19,7 @@ for(let i=0;i<tags.length;i++){
   input.value=tags[i].toUpperCase();
   label.setAttribute("for",tags[i]);
   label.innerText=tags[i];
+  label.className="label";
   div.append(input);
   div.append(label);
   companies.append(div);
@@ -83,10 +84,8 @@ function showData(data) {
   </td>
 `;
     }
-    // console.log(cls)
 
     tr.innerHTML = tds;
-    // console.log(tr);
     tbody.append(tr);
   }
 }
@@ -194,19 +193,6 @@ submit_btn.addEventListener("click", () => {
   for (let i = 0; i < c0.length; i++) {
     arr.push(c0[i].children[0]);
   }
-  // console.log(arr);
-  // let c0 = document.getElementById("all");
-  // arr.push(c0);
-  // c0 = document.getElementById("nvidia");
-  // arr.push(c0);
-  // c0 = document.getElementById("goldman");
-  // arr.push(c0);
-  // c0 = document.getElementById("sap");
-  // arr.push(c0);
-  // c0 = document.getElementById("quora");
-  // arr.push(c0);
-  // c0 = document.getElementById("mathworks");
-  // arr.push(c0);
 
   let data = arr.map((a) => {
     if (a.checked) {
@@ -214,10 +200,8 @@ submit_btn.addEventListener("click", () => {
     }
     return null;
   });
-  // console.log(data)
   data = data.filter((a) => a !== null);
-  // console.log(data);
-  // return;
+
   if (data.length === 0) {
     return;
   }
@@ -253,11 +237,9 @@ search.addEventListener("keyup", (e) => {
       return a[1].name[0].toLowerCase().includes(word);
       
     } else {
-      // console.log(a[1].name);
       return a[1].name.toLowerCase().includes(word);
     }
   });
-  // QUE_FROM_SERVER=dump;
  
   console.log(dump)
   showData(dump);
@@ -266,6 +248,5 @@ search.addEventListener("keyup", (e) => {
 const clear_btn = document.getElementById("clear_btn");
 clear_btn.addEventListener("click", () => {
   search.value = ``;
-  // QUE_FROM_SERVER=extraSaved;
   search.dispatchEvent(new KeyboardEvent("keyup", { key: "Backspace" }));
 });
